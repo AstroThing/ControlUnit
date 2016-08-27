@@ -1,0 +1,6 @@
+xst -intstyle ise -ifn "C:/Users/nimer/Documents/ControlUnit/FPGA/ControlUnit/ControlUnit.xst" -ofn "C:/Users/nimer/Documents/ControlUnit/FPGA/ControlUnit/ControlUnit.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-ft256-5 ControlUnit.ngc ControlUnit.ngd  
+map -intstyle ise -p xc3s500e-ft256-5 -cm area -ir off -pr off -c 100 -o ControlUnit_map.ncd ControlUnit.ngd ControlUnit.pcf 
+par -w -intstyle ise -ol high -t 1 ControlUnit_map.ncd ControlUnit.ncd ControlUnit.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr ControlUnit.pcf 
+bitgen -intstyle ise -f ControlUnit.ut ControlUnit.ncd 

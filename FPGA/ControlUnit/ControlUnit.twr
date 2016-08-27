@@ -1,0 +1,118 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt\unwrapped\trce.exe -intstyle ise -v 3 -s 5 -n
+3 -fastpaths -xml ControlUnit.twx ControlUnit.ncd -o ControlUnit.twr
+ControlUnit.pcf
+
+Design file:              ControlUnit.ncd
+Physical constraint file: ControlUnit.pcf
+Device,package,speed:     xc3s500e,ft256,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+opcode<0>      |alu_function<0>|    5.050|
+opcode<0>      |dm_write_enable|    6.931|
+opcode<0>      |flags_write    |    6.870|
+opcode<0>      |is_imm         |    6.653|
+opcode<0>      |is_jg          |    5.598|
+opcode<0>      |is_jl          |    5.702|
+opcode<0>      |is_jnz         |    5.942|
+opcode<0>      |is_jump        |    6.563|
+opcode<0>      |is_jz          |    6.741|
+opcode<0>      |is_mem_access  |    5.450|
+opcode<0>      |is_move        |    6.029|
+opcode<0>      |reg_write      |    6.952|
+opcode<1>      |alu_function<1>|    4.806|
+opcode<1>      |dm_write_enable|    6.878|
+opcode<1>      |flags_write    |    6.689|
+opcode<1>      |is_imm         |    6.600|
+opcode<1>      |is_jg          |    7.494|
+opcode<1>      |is_jl          |    7.399|
+opcode<1>      |is_jnz         |    7.639|
+opcode<1>      |is_jump        |    7.195|
+opcode<1>      |is_jz          |    6.780|
+opcode<1>      |is_mem_access  |    7.295|
+opcode<1>      |is_move        |    6.588|
+opcode<1>      |reg_write      |    6.899|
+opcode<2>      |alu_function<2>|    4.233|
+opcode<2>      |dm_write_enable|    5.908|
+opcode<2>      |flags_write    |    6.609|
+opcode<2>      |is_imm         |    6.349|
+opcode<2>      |is_jg          |    7.867|
+opcode<2>      |is_jl          |    7.552|
+opcode<2>      |is_jnz         |    8.012|
+opcode<2>      |is_jump        |    7.348|
+opcode<2>      |is_jz          |    6.895|
+opcode<2>      |is_mem_access  |    7.668|
+opcode<2>      |is_move        |    6.961|
+opcode<2>      |reg_write      |    5.753|
+opcode<3>      |dm_write_enable|    6.433|
+opcode<3>      |flags_write    |    7.435|
+opcode<3>      |is_imm         |    6.058|
+opcode<3>      |is_jg          |    5.975|
+opcode<3>      |is_jl          |    7.523|
+opcode<3>      |is_jnz         |    6.160|
+opcode<3>      |is_jump        |    7.319|
+opcode<3>      |is_jz          |    7.185|
+opcode<3>      |is_mem_access  |    5.805|
+opcode<3>      |is_move        |    5.802|
+opcode<3>      |reg_write      |    6.030|
+opcode<4>      |dm_write_enable|    5.649|
+opcode<4>      |flags_write    |    6.357|
+opcode<4>      |is_imm         |    5.853|
+opcode<4>      |is_jg          |    7.427|
+opcode<4>      |is_jl          |    7.571|
+opcode<4>      |is_jnz         |    7.572|
+opcode<4>      |is_jump        |    7.367|
+opcode<4>      |is_jz          |    6.751|
+opcode<4>      |is_mem_access  |    7.228|
+opcode<4>      |is_move        |    6.521|
+opcode<4>      |reg_write      |    5.998|
+---------------+---------------+---------+
+
+
+Analysis completed Fri Aug 26 19:24:19 2016 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 117 MB
+
+
+

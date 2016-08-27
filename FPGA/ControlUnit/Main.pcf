@@ -1,0 +1,26 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat Aug 27 00:51:52 2016
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "opcode<2>" LOCATE = SITE "N6" LEVEL 1;
+COMP "opcode<3>" LOCATE = SITE "P5" LEVEL 1;
+COMP "opcode<4>" LOCATE = SITE "N9" LEVEL 1;
+COMP "is_jump" LOCATE = SITE "D15" LEVEL 1;
+COMP "flags_write" LOCATE = SITE "R15" LEVEL 1;
+COMP "is_move" LOCATE = SITE "P16" LEVEL 1;
+COMP "is_imm" LOCATE = SITE "L15" LEVEL 1;
+COMP "is_jnz" LOCATE = SITE "M16" LEVEL 1;
+COMP "is_jg" LOCATE = SITE "G16" LEVEL 1;
+COMP "alu_function<0>" LOCATE = SITE "T13" LEVEL 1;
+COMP "reg_write" LOCATE = SITE "R16" LEVEL 1;
+COMP "alu_function<1>" LOCATE = SITE "R11" LEVEL 1;
+COMP "is_jl" LOCATE = SITE "J16" LEVEL 1;
+COMP "alu_function<2>" LOCATE = SITE "T8" LEVEL 1;
+COMP "dm_write_enable" LOCATE = SITE "P15" LEVEL 1;
+COMP "is_jz" LOCATE = SITE "L14" LEVEL 1;
+COMP "is_mem_access" LOCATE = SITE "N16" LEVEL 1;
+COMP "opcode<0>" LOCATE = SITE "M8" LEVEL 1;
+COMP "opcode<1>" LOCATE = SITE "P8" LEVEL 1;
+SCHEMATIC END;
+

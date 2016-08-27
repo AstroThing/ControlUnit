@@ -1,0 +1,37 @@
+#J6 Header
+Net "opcode[0]" LOC ="M8"  | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+Net "opcode[1]" LOC ="P8"  | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+Net "opcode[2]" LOC ="N6"  | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+Net "opcode[3]" LOC ="P5" | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+Net "opcode[4]" LOC ="N9"  | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+
+#J5 Header
+Net "alu_function[0]" LOC ="T13" | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+Net "alu_function[1]" LOC ="R11" | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+Net "alu_function[2]" LOC ="T8" | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+
+#J4 Header
+	#IO1
+	Net "is_jnz" LOC ="M16" | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+	#IO2
+	Net "is_jz" LOC ="L14" | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+	#IO3
+	Net "dm_write_enable" LOC ="P15" | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+	#IO4
+	Net "flags_write" LOC ="R15" | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+	#IO7
+	Net "is_imm" LOC ="L15" | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+	#IO8
+	Net "is_mem_access" LOC ="N16" | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+	#IO9
+	Net "is_move" LOC ="P16" | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+	#IO10
+	Net "reg_write" LOC ="R16" | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+	
+#J3 Header
+	#IO1
+	Net "is_jump" LOC ="D15" | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+	#IO2
+	Net "is_jg" LOC ="G16" | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;
+	#IO3
+	Net "is_jl" LOC ="J16" | IOSTANDARD = LVCMOS33 | SLEW = FAST | DRIVE = 8;

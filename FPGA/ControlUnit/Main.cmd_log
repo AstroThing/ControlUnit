@@ -1,0 +1,36 @@
+xst -intstyle ise -ifn "C:/Users/nimer/Documents/ControlUnit/FPGA/ControlUnit/Main.xst" -ofn "C:/Users/nimer/Documents/ControlUnit/FPGA/ControlUnit/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ControlUnit.ucf -p xc3s500e-ft256-5 Main.ngc Main.ngd  
+map -intstyle ise -p xc3s500e-ft256-5 -cm area -ir off -pr off -c 100 -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -t 1 Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf ControlUnit.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "C:/Users/nimer/Documents/ControlUnit/FPGA/ControlUnit/Main.xst" -ofn "C:/Users/nimer/Documents/ControlUnit/FPGA/ControlUnit/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ControlUnit.ucf -p xc3s500e-ft256-5 Main.ngc Main.ngd  
+map -intstyle ise -p xc3s500e-ft256-5 -cm area -ir off -pr off -c 100 -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -t 1 Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf ControlUnit.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "C:/Users/nimer/Documents/ControlUnit/FPGA/ControlUnit/Main.xst" -ofn "C:/Users/nimer/Documents/ControlUnit/FPGA/ControlUnit/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ControlUnit.ucf -p xc3s500e-ft256-5 Main.ngc Main.ngd  
+map -intstyle ise -p xc3s500e-ft256-5 -cm area -ir off -pr off -c 100 -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -t 1 Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf ControlUnit.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "C:/Users/nimer/Documents/ControlUnit/FPGA/ControlUnit/Main.xst" -ofn "C:/Users/nimer/Documents/ControlUnit/FPGA/ControlUnit/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ControlUnit.ucf -p xc3s500e-ft256-5 Main.ngc Main.ngd  
+map -intstyle ise -p xc3s500e-ft256-5 -cm area -ir off -pr off -c 100 -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -t 1 Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf ControlUnit.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "C:/Users/nimer/Documents/ControlUnit/FPGA/ControlUnit/Main.xst" -ofn "C:/Users/nimer/Documents/ControlUnit/FPGA/ControlUnit/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ControlUnit.ucf -p xc3s500e-ft256-5 Main.ngc Main.ngd  
+map -intstyle ise -p xc3s500e-ft256-5 -cm area -ir off -pr off -c 100 -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -t 1 Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf ControlUnit.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
+xst -intstyle ise -ifn "C:/Users/nimer/Documents/ControlUnit/FPGA/ControlUnit/Main.xst" -ofn "C:/Users/nimer/Documents/ControlUnit/FPGA/ControlUnit/Main.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ControlUnit.ucf -p xc3s500e-ft256-5 Main.ngc Main.ngd  
+map -intstyle ise -p xc3s500e-ft256-5 -cm area -ir off -pr off -c 100 -o Main_map.ncd Main.ngd Main.pcf 
+par -w -intstyle ise -ol high -t 1 Main_map.ncd Main.ncd Main.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Main.twx Main.ncd -o Main.twr Main.pcf -ucf ControlUnit.ucf 
+bitgen -intstyle ise -f Main.ut Main.ncd 
